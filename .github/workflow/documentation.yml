@@ -18,7 +18,8 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          ACCESS_TOKEN: ${{ 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 }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
           FOLDER: build
           BUILD_SCRIPT: npm install && npm run build
+
