@@ -21,3 +21,10 @@
   align-items: center;
   justify-content: center;
 }
+
+.fyangPic{
+  border-radius: 80%;
+  min-width: 20%;
+  max-width: 20%;
+  border: 2px solid;
+}

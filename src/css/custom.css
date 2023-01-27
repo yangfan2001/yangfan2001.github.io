@@ -28,3 +28,30 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.svg-inline--fa.fa-w-16 {
+  width: 1.5em;
+}
+
+.svg-inline--fa.fa-w-14 {
+  width: 1.3125em;
+}
+
+.footer__links {
+  margin: 0;
+}
+
+.footer__item {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+.footer__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__col {
+  margin-bottom: 0;
+}
