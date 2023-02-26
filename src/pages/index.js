@@ -15,6 +15,7 @@ function HomepageHeader() {
                 <img src={require('/static/img/me.jpeg').default} className={styles.fyangPic} />
                 <h1 className="hero__title">{siteConfig.title}</h1>
                 <p className="hero__subtitle">{siteConfig.tagline}</p>
+                <p className="hero__subtitle">My Wechat: yf993169208</p>
             </div>
         </header>
     );

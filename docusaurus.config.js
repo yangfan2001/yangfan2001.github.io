@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Fan Yang',
-  tagline: 'A senior at Tongji University & front-end developer',
+  tagline: 'A senior at Tongji University & Front-end developer',
   url: 'https://yangfan2001.github.io',    // 当前页面的url，setting里面 都可以看到部署后的url
   baseUrl: '/',   // 这里看自己需要添加，如果添加为/win/  访问主页就是 https://yingwinwin.github.io/win/
   organizationName: 'yangfan2001', // 这里是你github的名字
