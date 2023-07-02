@@ -12,10 +12,12 @@ function HomepageHeader() {
     return (
         <header className={clsx('hero', styles.heroBanner)}>
             <div className="container">
-                <img src={require('/static/img/me.jpeg').default} className={styles.fyangPic} />
+                <img src={require('/static/img/me.jpg').default} className={styles.fyangPic} />
                 <h1 className="hero__title">{siteConfig.title}</h1>
                 <p className="hero__subtitle">{siteConfig.tagline}</p>
-                <p className="hero__subtitle">My Wechat: yf993169208</p>
+                <p className="hero__subtitle">
+                    Seeking SDE intern.
+                </p>
             </div>
         </header>
     );
